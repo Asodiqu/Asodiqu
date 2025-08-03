@@ -148,6 +148,6 @@ const formBtn = document.querySelector("[data-form-btn]");
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const formData = new FormData(form);
-  const mailtoLink = `mailto:Muktharhanafi1@gmail.com?subject=Contact Form Submission&body=Name: ${formData.get('fullname')}%0D%0AEmail: ${formData.get('email')}%0D%0AMessage: ${formData.get('message')}`;
+  const mailtoLink = `mailto:asodiqu@gmail.com?subject=Contact Form Submission&body=Name: ${formData.get('fullname')}%0D%0AEmail: ${formData.get('email')}%0D%0AMessage: ${formData.get('message')}`;
   window.location.href = mailtoLink;
 });
